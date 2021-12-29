@@ -10,7 +10,7 @@ setup(
     install_requires=['numpy', 'scipy', 'tensorflow>=2.1.0'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
-    extras_require=['skimage', 'matplotlib']
+    extras_require=['skimage', 'matplotlib'],
     test_suite='tests',
     python_requires='>=3',
 )
